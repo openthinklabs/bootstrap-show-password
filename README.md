@@ -22,6 +22,11 @@ Your feedback is very appreciated!
 
 Look at the [Change Log](https://github.com/wenzhixin/bootstrap-show-password/blob/master/CHANGELOG.md)
 
+## Rebuild dist
+
+yarn add npm-run-all --dev
+npm run build
+
 ## LICENSE
 
 [The MIT License](https://github.com/wenzhixin/bootstrap-show-password/blob/master/LICENSE)

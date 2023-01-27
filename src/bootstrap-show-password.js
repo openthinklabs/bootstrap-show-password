@@ -29,7 +29,7 @@ const Constants = {
       4: [
         '<div class="%s"><button tabindex="100" title="%s" class="btn btn-outline-secondary" type="button">',
         '</button></div>'
-      ]: 
+      ], 
       5: ['<span title="%s" class="input-group-text">','</span>']
     }[bootstrapVersion]
   }
