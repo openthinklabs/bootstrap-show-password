@@ -4,7 +4,7 @@
  * version: 1.2.1
  */
 
-let bootstrapVersion = 4
+let bootstrapVersion = 5
 try {
   const rawVersion = $.fn.dropdown.Constructor.VERSION
 
@@ -29,7 +29,8 @@ const Constants = {
       4: [
         '<div class="%s"><button tabindex="100" title="%s" class="btn btn-outline-secondary" type="button">',
         '</button></div>'
-      ]
+      ]: 
+      5: ['<span title="%s" class="input-group-text">','</span>']
     }[bootstrapVersion]
   }
 }
