@@ -13,7 +13,7 @@ try {
   if (rawVersion !== undefined) {
     bootstrapVersion = parseInt(rawVersion, 10)
   } else {
-    bootstrapVersion = 3
+    bootstrapVersion = 4
   }
 } catch (e) {
   // ignore
